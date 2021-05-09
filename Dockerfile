@@ -13,7 +13,6 @@ COPY package*.json ./
 RUN npm i
 RUN npm install -g typescript
 
-
 # Copy app source
 COPY ./ ./
 
